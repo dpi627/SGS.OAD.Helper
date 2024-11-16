@@ -15,7 +15,7 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>SGS.OAD.Helper</PackageId>
-    <Version>24.11.1</Version>
+    <Version>24.11.3</Version>
     <Authors>Brian</Authors>
     <Company>SGS Taiwan Ltd.</Company>
     <Description>SGS OAD Helpers</Description>
