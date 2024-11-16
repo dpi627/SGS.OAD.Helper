@@ -1,9 +1,41 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>
+      net6.0;
+      net7.0;
+      net8.0;
+      net9.0;
+    </TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>SGS.OAD.Helper</PackageId>
+    <Version>24.11.1</Version>
+    <Authors>Brian</Authors>
+    <Company>SGS Taiwan Ltd.</Company>
+    <Description>SGS OAD Helpers</Description>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <PackageTags>SGS;OAD;Helper;Library;</PackageTags>
+    <PackageProjectUrl>http://twvoadtpw100004.apac.global.sgs.com/brian_li/SGS.OAD.Helper</PackageProjectUrl>
+    <RepositoryUrl>http://twvoadtpw100004.apac.global.sgs.com/brian_li/SGS.OAD.Helper.git</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageCopyright>Copyright © 2024 SGS Taiwan Ltd.</PackageCopyright>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <UserSecretsId>307dbcd0-ac28-4595-a70d-723f5ec9695f</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
