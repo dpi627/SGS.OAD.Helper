@@ -15,11 +15,11 @@
 
 ![](./assets/icon.png)
 
-# SGS.OAD.Helper
+# 📦SGS.OAD.Helper
 
 儲存各種常用的函式庫
 
-# VersionHelper
+# 🔢VersionHelper
 
 - 用於取得桌面應用程式版本
 - 桌面應用程式因部署方式不同，取得版本方式也有所差異
