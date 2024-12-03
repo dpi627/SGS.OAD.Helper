@@ -2,11 +2,14 @@
 
   <PropertyGroup>
     <TargetFrameworks>
+      net472;
+      net481;
       net6.0;
       net7.0;
       net8.0;
       net9.0;
     </TargetFrameworks>
+    <LangVersion>10.0</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -15,7 +18,7 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>SGS.OAD.Helper</PackageId>
-    <Version>24.11.3</Version>
+    <Version>24.12.1</Version>
     <Authors>Brian</Authors>
     <Company>SGS Taiwan Ltd.</Company>
     <Description>SGS OAD Helpers</Description>
